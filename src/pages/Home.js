@@ -17,7 +17,7 @@ const Home = () => {
 
     const joinRoom = () => {
         if (!roomId || !username) {
-            toast.error('ROOM ID & username is required');
+            toast.error('Room Id and Username is required');
             return;
         }
 
@@ -42,12 +42,12 @@ const Home = () => {
                     src="/code-sync.png"
                     alt="code-sync-logo"
                 />
-                <h4 className="mainLabel">Paste invitation ROOM ID</h4>
+                <h4 className="mainLabel">Unlock you Space</h4>
                 <div className="inputGroup">
                     <input
                         type="text"
                         className="inputBox"
-                        placeholder="ROOM ID"
+                        placeholder="Room Id"
                         onChange={(e) => setRoomId(e.target.value)}
                         value={roomId}
                         onKeyUp={handleInputEnter}
@@ -55,7 +55,7 @@ const Home = () => {
                     <input
                         type="text"
                         className="inputBox"
-                        placeholder="USERNAME"
+                        placeholder="Username"
                         onChange={(e) => setUsername(e.target.value)}
                         value={username}
                         onKeyUp={handleInputEnter}
@@ -64,13 +64,12 @@ const Home = () => {
                         Join
                     </button>
                     <span className="createInfo">
-                        If you don't have an invite then create &nbsp;
                         <a
                             onClick={createNewRoom}
                             href=""
                             className="createNewBtn"
                         >
-                            new room
+                           No invite? No problem. Create a new room.
                         </a>
                     </span>
                 </div>
@@ -78,7 +77,7 @@ const Home = () => {
             <footer>
                 <h4>
                     Built with 💛 &nbsp; by &nbsp;
-                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
+                    <a href="">Tushar Chandwanni</a>
                 </h4>
             </footer>
         </div>

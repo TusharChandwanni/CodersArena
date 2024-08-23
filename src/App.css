@@ -20,7 +20,7 @@ footer {
 }
 
 footer a {
-    color: #4aee88;
+    color: #FF204E;
 }
 
 .inputGroup {
@@ -61,14 +61,14 @@ footer a {
 
 .joinBtn,
 .leaveBtn {
-    background: #4aed88;
+    background: #FF204E;
     width: 100px;
     margin-left: auto;
 }
 
 .joinBtn:hover,
 .leaveBtn:hover {
-    background: #2b824c;
+    background: #A0153E;
 }
 
 .createInfo {
@@ -77,16 +77,16 @@ footer a {
 }
 
 .createNewBtn {
-    color: #4aed88;
+    color: #FF204E;
     text-decoration: none;
-    border-bottom: 1px solid #4aed88;
+    border-bottom: 1px solid #FF204E;
     transition: all 0.3s ease-in-out;
 }
 
 .createNewBtn:hover,
 footer a:hover {
-    color: #368654;
-    border-color: #368654;
+    color: #A0153E;
+    border-color: #A0153E;
 }
 
 .mainWrap {
@@ -123,7 +123,7 @@ footer a:hover {
 }
 
 .logo {
-    border-bottom: 1px solid #424242;
+    border-bottom: 1px solid #5D0E41;
     padding-bottom: 10px;
 }
 
